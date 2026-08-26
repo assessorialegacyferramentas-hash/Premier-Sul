@@ -1,0 +1,6 @@
+# robots.txt for Premier Prêmios Sul
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://premierpremios.com/sitemap.xml

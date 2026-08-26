@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Premier Prêmios Sul | Campanha Oficial</title>
+  <meta name="description" content="Conheça a campanha atual da Premier Prêmios Sul e participe. Grandes prêmios, grandes oportunidades." />
+  
+  <meta name="theme-color" content="#080808" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Premier Prêmios Sul | Campanha Oficial" />
+  <meta property="og:description" content="Conheça a campanha atual da Premier Prêmios Sul e participe." />
+  <meta property="og:image" content="https://i.imgur.com/i5RGpp4.jpeg" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="https://i.imgur.com/i5RGpp4.jpeg" fetchpriority="high" />
+
+  <!-- Rastreamento configurável -->
+  <script>
+    window.TRACKING_CONFIG = {
+      META_PIXEL_ID: "", // Ex: "123456789012345"
+      GA4_ID: "",        // Ex: "G-XXXXXXXXXX"
+      GTM_ID: ""         // Ex: "GTM-XXXXXXX"
+    };
+
+    if (window.TRACKING_CONFIG.GTM_ID) {
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer',window.TRACKING_CONFIG.GTM_ID);
+    }
+
+    if (window.TRACKING_CONFIG.META_PIXEL_ID) {
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', window.TRACKING_CONFIG.META_PIXEL_ID);
+      fbq('track', 'PageView');
+    }
+
+    if (window.TRACKING_CONFIG.GA4_ID) {
+      var gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.TRACKING_CONFIG.GA4_ID;
+      document.head.appendChild(gaScript);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', window.TRACKING_CONFIG.GA4_ID);
+    }
+  </script>
+
+  <style>
+    :root {
+      --bg-main: #080808;
+      --bg-card: #111111;
+      --gold: #D4AF37;
+      --gold-cta: #FFC928;
+      --white: #FFFFFF;
+      --gray: #A7A7A7;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+    body {
+      background-color: var(--bg-main);
+      color: var(--white);
+      font-family: 'Montserrat', sans-serif;
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+    }
+    .wrapper {
+      width: 100%;
+      max-width: 480px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid rgba(255,255,255,0.04);
+      border-right: 1px solid rgba(255,255,255,0.04);
+      padding-bottom: 90px;
+    }
+    .header {
+      padding: 28px 16px 14px;
+      text-align: center;
+    }
+    .logo-img {
+      max-width: 260px;
+      max-height: 75px;
+      object-contain: fit;
+      margin: 0 auto 12px;
+      display: block;
+    }
+    .tagline {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .hero {
+      padding: 8px 16px 16px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #161616;
+      border: 1px solid rgba(212, 175, 55, 0.4);
+      padding: 4px 14px;
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--gold-cta);
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+    }
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--gold-cta);
+      border-radius: 50%;
+      animation: pulse-dot 1.5s infinite;
+    }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.8); }
+    }
+    .image-container {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #111;
+      border: 1px solid #262626;
+      box-shadow: 0 12px 36px rgba(0,0,0,0.8);
+    }
+    .image-container img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 0.3s ease;
+    }
+    .photo-toggle {
+      position: absolute;
+      bottom: 10px;
+      right: 12px;
+      z-index: 20;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(8px);
+      padding: 4px 8px;
+      border-radius: 9999px;
+      border: 1px solid rgba(255,255,255,0.1);
+      display: flex;
+      gap: 6px;
+    }
+    .photo-btn {
+      border: none;
+      background: transparent;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      cursor: pointer;
+    }
+    .photo-btn.active {
+      background: var(--gold-cta);
+      color: #000;
+      font-weight: 900;
+    }
+    .headline {
+      font-size: 24px;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-top: 16px;
+      line-height: 1.2;
+    }
+    .subtext {
+      font-size: 13px;
+      color: var(--gray);
+      margin-top: 6px;
+      font-weight: 500;
+    }
+    .cta-container {
+      padding: 6px 16px 20px;
+      text-align: center;
+    }
+    .btn-gold {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-height: 58px;
+      background: linear-gradient(135deg, #FFD447 0%, #FFC928 45%, #E5A812 100%);
+      color: #000;
+      font-weight: 900;
+      font-size: 17px;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(255, 201, 40, 0.38);
+      letter-spacing: 0.5px;
+      animation: cta-pulse 2.4s infinite;
+      transition: transform 0.1s;
+    }
+    .btn-gold:active {
+      transform: scale(0.98);
+    }
+    @keyframes cta-pulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 8px 24px rgba(255, 201, 40, 0.38); }
+      50% { transform: scale(1.02); box-shadow: 0 10px 30px rgba(255, 201, 40, 0.55); }
+    }
+    .disclaimer {
+      font-size: 11px;
+      color: var(--gray);
+      margin-top: 8px;
+    }
+    .vip-card {
+      margin: 0 16px 16px;
+      background: var(--bg-card);
+      border: 1px solid #222;
+      border-radius: 16px;
+      padding: 20px 16px;
+      text-align: center;
+    }
+    .vip-title {
+      font-size: 16px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .vip-text {
+      font-size: 12px;
+      color: var(--gray);
+      margin-top: 8px;
+      line-height: 1.4;
+    }
+    .btn-vip {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      min-height: 48px;
+      background: #1a1a1a;
+      border: 1px solid rgba(37, 211, 102, 0.5);
+      color: #25D366;
+      font-weight: 700;
+      font-size: 13px;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 12px;
+      margin-top: 14px;
+    }
+    .social-section {
+      padding: 8px 16px 20px;
+    }
+    .social-title {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    .social-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    @media (min-width: 400px) {
+      .social-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .social-btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--bg-card);
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 12px;
+      text-decoration: none;
+      color: #fff;
+    }
+    .social-btn:hover { border-color: rgba(212, 175, 55, 0.4); }
+    .social-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: #1c1c1c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      shrink: 0;
+    }
+    .final-card {
+      margin: 0 16px 24px;
+      background: linear-gradient(180deg, #141414 0%, #0d0d0d 100%);
+      border: 1px solid rgba(212, 175, 55, 0.35);
+      border-radius: 16px;
+      padding: 24px 16px;
+      text-align: center;
+    }
+    .footer {
+      border-top: 1px solid #1c1c1c;
+      padding: 20px 16px;
+      text-align: center;
+      background: #060606;
+    }
+    .footer p { font-size: 11px; color: #777; margin-top: 4px; }
+    .sticky-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.92);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(212, 175, 55, 0.3);
+      padding: 12px 16px;
+      display: none;
+      justify-content: center;
+      z-index: 999;
+    }
+    .sticky-bar.visible { display: flex; }
+    .sticky-btn {
+      width: 100%;
+      max-width: 440px;
+      min-height: 50px;
+      background: linear-gradient(135deg, #FFD447 0%, #FFC928 45%, #E5A812 100%);
+      color: #000;
+      font-weight: 900;
+      font-size: 15px;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- 1. LOGO -->
+    <header class="header">
+      <img src="https://i.imgur.com/JEvRmN6.png" alt="Premier Prêmios Sul" class="logo-img" onerror="this.onerror=null; this.src='https://imgur.com/JEvRmN6.png';" />
+      <p class="tagline">Grandes prêmios. Grandes oportunidades.</p>
+    </header>
+
+    <!-- 2. HERO / AMAROK -->
+    <section class="hero">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        <span>AMAROK V6 STAGE 2</span>
+      </div>
+
+      <div class="image-container">
+        <img id="amarok-img-0" src="https://i.imgur.com/i5RGpp4.jpeg" alt="Amarok V6 Stage 2" style="opacity: 1;" />
+        <img id="amarok-img-1" src="https://i.imgur.com/LbGPzeu.jpeg" alt="Amarok V6 Stage 2 Detalhes" style="opacity: 0;" />
+        
+        <div class="photo-toggle">
+          <button class="photo-btn active" onclick="switchPhoto(0)">1</button>
+          <button class="photo-btn" onclick="switchPhoto(1)">2</button>
+        </div>
+      </div>
+
+      <h1 class="headline">ESSA AMAROK PODE SER SUA.</h1>
+      <p class="subtext">Entre agora na campanha oficial da Premier Prêmios Sul.</p>
+    </section>
+
+    <!-- 3. CTA PRINCIPAL -->
+    <div id="main-cta-block" class="cta-container">
+      <a id="main-campaign-btn" href="https://premierpremios.com/amarok-v6-stege-2-350-cv?afiliado=trafego" target="_blank" rel="noopener noreferrer" class="btn-gold" onclick="trackClick('click_rifa', 'main_cta')">
+        🔥 QUERO PARTICIPAR AGORA
+      </a>
+      <p class="disclaimer">Você será direcionado para a campanha oficial.</p>
+    </div>
+
+    <!-- 4. COMUNIDADE VIP -->
+    <div class="vip-card">
+      <h2 class="vip-title">🏆 ENTRE PARA A COMUNIDADE VIP</h2>
+      <p class="vip-text">Receba novidades, avisos e informações das campanhas diretamente no WhatsApp.</p>
+      <a href="https://chat.whatsapp.com/HlOQtU4xjLyHo1cXEld54c" target="_blank" rel="noopener noreferrer" class="btn-vip" onclick="trackClick('click_whatsapp_group')">
+        <span>💬</span> ENTRAR NA COMUNIDADE VIP
+      </a>
+    </div>
+
+    <!-- 5. REDES E CONTATO -->
+    <section class="social-section">
+      <h3 class="social-title">ACOMPANHE A PREMIER</h3>
+      <div class="social-grid">
+        <a href="https://www.instagram.com/premiospremiersul" target="_blank" rel="noopener noreferrer" class="social-btn" onclick="trackClick('click_instagram')">
+          <div class="social-icon" style="color: #E1306C;">📸</div>
+          <div>
+            <div style="font-size:12px; font-weight:700;">Instagram</div>
+            <div style="font-size:10px; color:#a7a7a7;">@premiospremiersul</div>
+          </div>
+        </a>
+
+        <a href="https://api.whatsapp.com/send/?phone=5547992722026&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="social-btn" onclick="trackClick('click_whatsapp_support')">
+          <div class="social-icon" style="color: #25D366;">💬</div>
+          <div>
+            <div style="font-size:12px; font-weight:700;">Falar com o suporte</div>
+            <div style="font-size:10px; color:#a7a7a7;">Atendimento oficial</div>
+          </div>
+        </a>
+
+        <a href="https://t.me/grupovippremios" target="_blank" rel="noopener noreferrer" class="social-btn" onclick="trackClick('click_telegram')">
+          <div class="social-icon" style="color: #0088cc;">✈️</div>
+          <div>
+            <div style="font-size:12px; font-weight:700;">Telegram VIP</div>
+            <div style="font-size:10px; color:#a7a7a7;">Canal exclusivo</div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 6. BLOCO FINAL DE CONVERSÃO -->
+    <div class="final-card">
+      <h2 style="font-size: 18px; font-weight: 900; text-transform: uppercase;">A PRÓXIMA AMAROK PODE SER A SUA.</h2>
+      <p style="font-size: 13px; color: #a7a7a7; margin-top: 6px;">Não deixe para depois. Entre agora na campanha.</p>
+      <a id="final-campaign-btn" href="https://premierpremios.com/amarok-v6-stege-2-350-cv?afiliado=trafego" target="_blank" rel="noopener noreferrer" class="btn-gold" style="margin-top: 16px;" onclick="trackClick('click_rifa', 'final_cta')">
+        🔥 GARANTIR MINHAS COTAS
+      </a>
+    </div>
+
+    <!-- 7. FOOTER -->
+    <footer class="footer">
+      <div style="font-size:11px; font-weight:700; color:#D4AF37; margin-bottom: 4px;">🛡️ Campanha Segura &amp; Autorizada</div>
+      <div style="font-size:12px; font-weight:700;">Premier Prêmios Sul</div>
+      <p>&copy; 2026 Premier Prêmios Sul. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <!-- CTA FIXO MOBILE -->
+  <div id="sticky-bar" class="sticky-bar">
+    <a id="sticky-campaign-btn" href="https://premierpremios.com/amarok-v6-stege-2-350-cv?afiliado=trafego" target="_blank" rel="noopener noreferrer" class="sticky-btn" onclick="trackClick('click_rifa', 'sticky_cta')">
+      🔥 PARTICIPAR AGORA
+    </a>
+  </div>
+
+  <script>
+    // 1. Alternador de Fotos
+    function switchPhoto(index) {
+      var img0 = document.getElementById('amarok-img-0');
+      var img1 = document.getElementById('amarok-img-1');
+      var btns = document.querySelectorAll('.photo-btn');
+      if (index === 0) {
+        img0.style.opacity = '1';
+        img1.style.opacity = '0';
+        btns[0].classList.add('active');
+        btns[1].classList.remove('active');
+      } else {
+        img0.style.opacity = '0';
+        img1.style.opacity = '1';
+        btns[0].classList.remove('active');
+        btns[1].classList.add('active');
+      }
+    }
+
+    // 2. Preservação de UTMs e Repasse para os botões
+    (function initUTM() {
+      var utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'fbclid', 'gclid', 'ttclid', 'src', 'sck'];
+      var urlParams = new URLSearchParams(window.location.search);
+      var stored = JSON.parse(sessionStorage.getItem('pps_traffic_params') || '{}');
+      
+      utmKeys.forEach(function(k) {
+        var v = urlParams.get(k);
+        if (v) stored[k] = v;
+      });
+      sessionStorage.setItem('pps_traffic_params', JSON.stringify(stored));
+
+      function updateLink(id) {
+        var el = document.getElementById(id);
+        if (!el) return;
+        try {
+          var u = new URL(el.href);
+          utmKeys.forEach(function(k) {
+            if (stored[k] && !u.searchParams.has(k)) {
+              u.searchParams.set(k, stored[k]);
+            }
+          });
+          el.href = u.toString();
+        } catch(e){}
+      }
+
+      updateLink('main-campaign-btn');
+      updateLink('final-campaign-btn');
+      updateLink('sticky-campaign-btn');
+    })();
+
+    // 3. Intersection Observer para Sticky CTA
+    (function initStickyObserver() {
+      var mainCta = document.getElementById('main-cta-block');
+      var stickyBar = document.getElementById('sticky-bar');
+      if (!mainCta || !stickyBar) return;
+
+      var observer = new IntersectionObserver(function(entries) {
+        var entry = entries[0];
+        if (entry.isIntersecting) {
+          stickyBar.classList.remove('visible');
+        } else {
+          stickyBar.classList.add('visible');
+        }
+      }, { threshold: 0.15 });
+
+      observer.observe(mainCta);
+    })();
+
+    // 4. Disparo de Eventos
+    function trackClick(eventName, location) {
+      var payload = { event: eventName, location: location || '', timestamp: new Date().toISOString() };
+      console.log('[Tracking Event]', payload);
+      try {
+        if (window.fbq) {
+          if (eventName === 'click_rifa') window.fbq('track', 'InitiateCheckout', { content_name: 'Amarok V6' });
+          window.fbq('trackCustom', eventName, payload);
+        }
+        if (window.gtag) window.gtag('event', eventName, payload);
+        if (window.dataLayer) window.dataLayer.push(payload);
+      } catch(e){}
+    }
+  </script>
+</body>
+</html>

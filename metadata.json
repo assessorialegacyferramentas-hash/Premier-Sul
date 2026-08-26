@@ -1,0 +1,6 @@
+{
+  "name": "Premier Prêmios Sul",
+  "description": "Landing page oficial de alta conversão da Premier Prêmios Sul para a campanha da Amarok V6.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
