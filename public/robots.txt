@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://premierpremios.com/sitemap.xml
+Sitemap: https://www.acessepremiersul.com.br/sitemap.xml
