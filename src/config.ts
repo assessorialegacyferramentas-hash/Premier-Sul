@@ -21,7 +21,7 @@ export const CONFIG = {
   CAMPAIGN_NAME: 'AMAROK V6 STAGE 2',
   CAMPAIGN_HEADLINE: 'ESSA AMAROK PODE SER SUA.',
   CAMPAIGN_SUBTEXT: 'Entre agora na campanha oficial da Premier Prêmios Sul.',
-  CAMPAIGN_BASE_URL: 'https://premierpremios.com/amarok-v6-stege-2-350-cv?afiliado=trafego',
+  CAMPAIGN_BASE_URL: 'https://premierpremios.com/amarok-v6-stege-2-360-cv?afiliado=trafego',
   CANONICAL_URL: 'https://www.acessepremiersul.com.br/',
   OG_IMAGE_URL: 'https://www.acessepremiersul.com.br/og-image.jpg',
   META_PIXEL_ID: (typeof import.meta !== 'undefined' && import.meta.env?.VITE_META_PIXEL_ID) || '28699639839619491',
