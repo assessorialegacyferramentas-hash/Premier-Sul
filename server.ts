@@ -64,7 +64,7 @@ async function startServer() {
             {
               event_name: custom_event || event_name,
               event_time: event_time || Math.floor(Date.now() / 1000),
-              event_source_url: event_source_url || 'https://premierpremios.com/amarok-v6-stege-2-360-cv-150-mil-pix',
+              event_source_url: event_source_url || 'https://premierpremios.com/amarok-v6-stage-2-360-cv-150-mil-pix',
               action_source: 'website',
               user_data: {
                 client_ip_address: typeof clientIp === 'string' ? clientIp.split(',')[0].trim() : undefined,
