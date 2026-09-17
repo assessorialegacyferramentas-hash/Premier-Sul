@@ -60,8 +60,8 @@ export const CONFIG = {
   COMMUNITY_URL: 'https://chat.whatsapp.com/HlOQtU4xjLyHo1cXEld54c',
 
   // Redes Sociais e Suporte
-  INSTAGRAM_URL: 'https://www.instagram.com/premierpremiosblumenau/',
-  INSTAGRAM_HANDLE: '@premierpremiosblumenau',
+  INSTAGRAM_URL: 'https://www.instagram.com/premiospremiersul/',
+  INSTAGRAM_HANDLE: '@premiospremiersul',
   
   // ==========================================================================
   // CONFIRMAR URL OFICIAL DO FACEBOOK:
